@@ -1,0 +1,31 @@
+{
+  "commit": "5b9531439a15a8e8d2e29be292655447768783db",
+  "pagesAndArtboards": {
+    "8EB1833C-C7A0-428D-9025-9C2570CC7545": {
+      "name": "Page 1",
+      "artboards": {
+        "099257F4-632A-4ADD-998E-5967D678FD95": {
+          "name": "comic-png"
+        }
+      }
+    }
+  },
+  "version": 97,
+  "fonts": [],
+  "compatibilityVersion": 93,
+  "app": "com.bohemiancoding.sketch3",
+  "autosaved": 0,
+  "variant": "NONAPPSTORE",
+  "created": {
+    "commit": "5b9531439a15a8e8d2e29be292655447768783db",
+    "appVersion": "48.1",
+    "build": 47250,
+    "app": "com.bohemiancoding.sketch3",
+    "compatibilityVersion": 93,
+    "version": 97,
+    "variant": "NONAPPSTORE"
+  },
+  "saveHistory": ["NONAPPSTORE.47250"],
+  "appVersion": "48.1",
+  "build": 47250
+}
