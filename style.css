@@ -76,3 +76,27 @@ p {
   font-size: 1rem;
   margin-left: -5rem;
 }
+
+@media only screen and (max-width: 850px) {
+    body {
+      flex-direction: column;
+    }
+    body > div {
+      width: 100%;
+      height: 50vh;
+    }
+    .info {
+      padding-bottom: 5rem;
+      width: 80%;
+    }
+    .logo {
+      position: initial;
+      margin-bottom: 3rem;
+    }
+    .timetable {
+      order: -1;
+    }
+    .address {
+      margin-top: 3rem;
+    }
+}
