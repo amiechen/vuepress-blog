@@ -6,6 +6,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  transition: all 1s ease-in-out;
 }
 
 body {
@@ -100,3 +101,10 @@ p {
       margin-top: 3rem;
     }
 }
+
+@media only screen and (min-width: 500px) {
+  .info {
+    width: 60%;
+  }
+}
+
