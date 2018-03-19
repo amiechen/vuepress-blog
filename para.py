@@ -1,18 +1,15 @@
 from bs4 import BeautifulSoup
 import requests
 
-shortcut_url = "https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html"
+shortcut_url = "https://helpx.adobe.com/indesign/using/default-keyboard-shortcuts.html"
 page = requests.get(shortcut_url)
 soup = BeautifulSoup(page.text, 'html.parser')
-sections = soup.select('.filter-content.section')
+sections = soup.select('.table.parbase.section')
 yml = open('AfterEffects.yml', 'w+')
 
 for section in sections:
-  header = section.select('.header.first-header.header-top')
-  headerText = header[0].getText().strip().replace('\n', ' ').replace('\r', ' ')
   trs = section.find_all('tr');
 
-  yml.write('{0}: \n'.format(headerText))
   for row in trs:
     row_array = row.find_all('td')
     if len(row_array) == 3:
