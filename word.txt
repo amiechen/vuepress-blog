@@ -1,0 +1,97 @@
+Undo the last action
+
+Cmd + Z or Control + Z
+
+Cut selected text or graphics
+
+Cmd + X or Control + X
+
+Copy selected text or graphics to the Clipboard
+
+Cmd + C or Control + C
+
+Paste the Clipboard contents
+
+Cmd + V or Control + V
+
+Choose the Go To Cmd (Edit menu)
+
+Option +  Cmd + G
+
+Open the Spelling and Grammar dialog box
+
+Option +  Cmd + L
+
+Extend a selection
+
+F8
+
+Go to the next window
+
+Cmd + ( ` )
+
+Choose the Save As Cmd (File menu).
+
+Cmd + Shift + S
+
+Copy selected text
+
+Shift + F2
+
+Change letters to uppercase, lowercase, or mixed case
+
+Shift + F3
+
+Find or Find and Replace
+
+Control+F for Find; places the focus in the Search box
+
+Control+H for Find and Replace
+
+Print a document
+
+Cmd + P or Control + P
+
+Move to the previous insertion point
+
+Shift + F5
+
+Go to the previous window
+
+Cmd + Shift + `
+
+Open the Thesaurus pane
+
+Shift+ F7
+
+Shrink a selection
+
+Shift+ F8
+
+Switch between a field code and its result
+
+Shift + F9
+
+Cut the selection to the Spike
+
+Cmd + F3
+
+Close the window
+
+Cmd + F4
+
+Expand or minimize the ribbon
+
+Option +  Cmd + R
+
+Edit a bookmark
+
+Cmd + Shift + F5
+
+Find the next misspelling or grammatical error. The Check spelling as you type check box must be selected (Word menu, Preferences Cmd, Spelling and Grammar).
+
+Option + F7
+
+Look up selected text on the Internet
+
+Cmd + Shift + L

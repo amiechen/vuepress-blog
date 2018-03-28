@@ -5,7 +5,7 @@ shortcut_url = "https://helpx.adobe.com/indesign/using/default-keyboard-shortcut
 page = requests.get(shortcut_url)
 soup = BeautifulSoup(page.text, 'html.parser')
 sections = soup.select('.table.parbase.section')
-yml = open('AfterEffects.yml', 'w+')
+yml = open('.yml', 'w+')
 
 for section in sections:
   trs = section.find_all('tr');
