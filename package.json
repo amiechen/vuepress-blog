@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vuepress build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   "homepage": "https://github.com/amiechen/vuepress-blog#readme",
   "dependencies": {
     "moment": "^2.24.0",
-    "tailwindcss": "^0.7.4"
+    "tailwindcss": "^0.7.4",
+    "vuepress": "^1.0.0-alpha.37"
   },
   "devDependencies": {
     "vuepress-plugin-reading-time": "^0.1.1"

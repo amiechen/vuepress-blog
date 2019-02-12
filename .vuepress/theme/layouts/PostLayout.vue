@@ -2,8 +2,12 @@
   <div class="flex flex-col h-full">
     <Nav/>
     <article class="flex-1 mx-auto leading-normal container">
-      <label class="text-grey-dark">{{$page.readingTime.text}}</label>
-      <label class="text-grey-dark">{{formateDate($page.frontmatter.date)}}</label>
+      <h2>{{$page.frontmatter.title}}</h2>
+      <label class="text-grey-dark">
+        <span>{{$page.readingTime.text}}</span> •
+        <span>{{formateDate($page.frontmatter.date)}}</span>
+      </label>
+
       <Content/>
     </article>
     <Footer class="pin-b"/>
