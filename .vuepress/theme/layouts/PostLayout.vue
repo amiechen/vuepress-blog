@@ -3,6 +3,7 @@
     <Nav/>
     <article class="flex-1 mx-auto leading-normal container">
       <label class="text-grey-dark">{{$page.readingTime.text}}</label>
+      <label class="text-grey-dark">{{formateDate($page.frontmatter.date)}}</label>
       <Content/>
     </article>
     <Footer class="pin-b"/>
@@ -10,11 +11,17 @@
 </template>
 
 <script>
+import moment from "moment";
 import Nav from "@theme/components/Nav";
 import Footer from "@theme/components/Footer";
 export default {
   components: { Nav, Footer },
-  name: "Layout"
+  name: "Layout",
+  methods: {
+    formateDate(date) {
+      return moment(date).format("MMM Do YYYY");
+    }
+  }
 };
 </script>
 

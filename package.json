@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/amiechen/vuepress-blog#readme",
   "dependencies": {
+    "moment": "^2.24.0",
     "tailwindcss": "^0.7.4"
   },
   "devDependencies": {

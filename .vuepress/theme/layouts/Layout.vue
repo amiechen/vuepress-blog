@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col h-full">
     <Nav/>
-    <Content class="flex-1 max-w-xl mx-auto leading-normal"/>
+    <Content class="flex-1 container mx-auto leading-normal"/>
     <Footer class="pin-b"/>
   </div>
 </template>
